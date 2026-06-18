@@ -1,7 +1,16 @@
 {
-  "name": "three-gate-review",
-  "version": "0.1.0",
-  "description": "Forces every substantive task through a 3-stage pipeline: Executor -> Verifier -> Executive review. Shared across Claude Code and Cowork.",
-  "author": { "name": "you" },
-  "hooks": "./hooks/hooks.json"
+  "name": "three-gate",
+  "owner": {
+    "name": "you",
+    "email": "you@example.com"
+  },
+  "plugins": [
+    {
+      "name": "three-gate-review",
+      "source": "./plugins/three-gate-review",
+      "description": "Forces every substantive task through Executor -> Verifier -> Executive. Shared across Claude Code and Cowork.",
+      "version": "0.1.0",
+      "author": { "name": "you" }
+    }
+  ]
 }
