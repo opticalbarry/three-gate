@@ -1,0 +1,10 @@
+{
+  "name": "three-gate-review",
+  "version": "0.1.0",
+  "description": "Forces every substantive task through a 3-stage pipeline: Executor -> Verifier -> Executive review. Shared across Claude Code and Cowork.",
+  "author": "you",
+  "agents": "./agents",
+  "skills": "./skills",
+  "commands": "./commands",
+  "hooks": "./hooks/hooks.json"
+}
